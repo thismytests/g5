@@ -1,0 +1,9 @@
+<app-header-section #firstSubtrahendHeight></app-header-section>
+
+<app-content-section #windowHeightWithoutSubtrahendHeights
+                     style="overflow-y: auto">
+  <app-search (items)="onSearch($event)"></app-search>
+  <app-table [items]="items"></app-table>
+</app-content-section>
+
+<app-footer-section #secondSubtrahendHeight></app-footer-section>

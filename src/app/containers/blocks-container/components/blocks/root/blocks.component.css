@@ -1,0 +1,41 @@
+.items-wrapper {
+  overflow: hidden;
+  text-align: center;
+}
+
+.card {
+  /*float: left;*/
+  /*width: 25%;*/
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 20px;
+  /*padding: 1%;*/
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px rgba(43, 118, 141, 0.24);
+}
+.card-body{
+
+}
+
+.image-wrapper{
+  max-width: 60px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.image-wrapper> img{
+  max-width: 100%;
+}
+
+.card-title{
+  height: 20px;
+}
+
+.card-text{
+  height: 120px;
+  overflow: hidden;
+}

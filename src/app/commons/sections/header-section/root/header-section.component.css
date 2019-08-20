@@ -1,0 +1,68 @@
+:host {
+  display: block;
+  width: 100%;
+  z-index: 1000;
+}
+
+.item-height {
+  height: 40px;
+}
+
+.logo-wrapper {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.logo {
+  height: 100%;
+}
+
+.header-wrapper {
+  padding: 10px 0;
+}
+
+.link {
+  opacity: 0.5;
+  color: black;
+  cursor: pointer;
+}
+
+.link.active {
+  background: gray;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+.locale {
+  font-size: 27px;
+}
+
+.user {
+
+}
+
+.user-title {
+  font-size: 12px;
+}
+
+.user-image {
+  width: 30px;
+}
+
+
+.login-logout-group{
+
+}
+
+.navbar-group{
+  justify-content: space-between;
+}
+.links-wrapper{
+  flex-shrink: 1;
+}
+
+.nav-item{
+  padding-right: 30px;
+}

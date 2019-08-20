@@ -1,0 +1,7 @@
+.wrapper{
+  cursor: pointer;
+}
+
+.wrapper:hover{
+  box-shadow: 0 8px 16px rgba(173, 88, 223, 0.4);
+}
