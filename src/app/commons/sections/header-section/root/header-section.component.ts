@@ -58,6 +58,7 @@ export class HeaderSectionComponent implements OnInit {
 
   logOut() {
     this.appLoginService.signOut();
+    this.router.navigate([pagesUrl['404']]);
   }
 }
 
